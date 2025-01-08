@@ -1,1 +1,1 @@
-This is a project with layouts of main page of portal [Yandex.Dzen](https://dzen.ru/).
+This is a project with layout of main page of portal [Yandex.Dzen](https://dzen.ru/).
