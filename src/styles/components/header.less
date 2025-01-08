@@ -1,0 +1,122 @@
+@import '../common/fonts.less';
+@import '../common/common.less';
+@import '../common/palette.less';
+
+.header {
+
+}
+
+.dz-logo {
+  position: fixed;
+  margin: 5px 30px;
+}
+.form {
+  position: relative;
+  margin-top: 30px;
+  margin-left: 300px;
+  width: 600px;
+  height: 45px;
+}
+input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 2px solid @border-form-color;
+  border-radius: 10px;
+  background-color: @inside-form-color;
+}
+.kboard-icon-wrapper {
+  position: absolute;
+  float: right;
+  right: 80px;
+  top: 15px;
+}
+button.dz-search {
+  position: absolute;
+  height: 80%;
+  width: 10%;
+  top: 5px;
+  right: 5px;
+  bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: @button-search-color;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Yandex Sans Text Regular', sans-serif;
+  font-size: 14px;
+}
+.search-icon {
+  position: fixed;
+  float: right;
+  right: 120px;
+  top: 30px;
+}
+button.dz-login {
+  position: fixed;
+  float: right;
+  right: 30px;
+  top: 30px;
+  width: 70px;
+  height: 30px;
+  background: @button-login-background;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-family: 'Yandex Sans Text Regular', sans-serif;
+}
+.icons-under-search-wrapper {
+  position: absolute;
+  display: flex;
+  direction: ltr;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-left: 300px;
+  font-family: 'Yandex Sans Text Regular', sans-serif;
+  font-size: 15px;
+}
+.icons-under-search-wrapper div {
+  width: 80px;
+  height: 100px;
+}
+.icons-weather-wrapper {
+  display: flex;
+  align-items: flex-start;
+  direction: ltr;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+.icons-weather-wrapper div {
+  width: 20px;
+  height: 100px;
+}
+.icons-currency-wrapper {
+  position: absolute;
+  display: flex;
+  direction: ltr;
+  justify-content: flex-end;
+  margin-top: 15px;
+  margin-left: 705px;
+  font-size: 15px;
+}
+.icons-currency-wrapper div {
+  width: 70px;
+  height: 80px;
+}
+.icons-and-text-wrapper {
+  display: flex;
+  direction: ltr;
+  justify-content: flex-start;
+}
+.icons-and-text-link {
+  font-family: 'Yandex Sans Text Regular', sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  align-self: baseline;
+  color: @under-search-form-text-color;
+}

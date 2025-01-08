@@ -1,0 +1,38 @@
+@import '../common/fonts.less';
+@import '../common/common.less';
+@import '../common/palette.less';
+
+.dz-menu-wrapper {
+  flex: 1 auto 20%;;
+}
+.dz-menu {
+  margin: 30px;
+}
+.dz-menu-navigate {
+  padding: 5px;
+  width: 100%;
+}
+.dz-menu-element-wrapper {
+  margin-bottom: 15px;
+  list-style-type: none;
+  display: flex;
+}
+.dz-menu-text {
+  text-decoration: none;
+  font-family: 'Yandex Sans Text Regular', sans-serif;
+  font-size: 16px;
+  color: @menu-topics-color;
+  align-self: baseline;
+}
+.dz-menu-underline-text {
+  text-decoration: none;
+  font-family: 'Yandex Sans', sans-serif;
+  font-size: 12px;
+  color: @menu-underline-topics-color;
+}
+.divider {
+  height: 2px;
+  background-color: @menu-divider-color;
+  width: 150px;
+  margin: 20px 50px 20px 0px;
+}

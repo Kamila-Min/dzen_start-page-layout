@@ -1,1 +1,1 @@
-# page-layout
+This is a project with layouts of main page of portal [Yandex.Dzen](https://dzen.ru/).

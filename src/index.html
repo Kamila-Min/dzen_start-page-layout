@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum scale=1.0"
+        />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Дзен</title>
+    </head>
+    <body class="dz-general">
+        <header class="header">
+            <div class="dz-logo">
+                <img src="./assets/icons/dzen-logo.webp" alt="dzen" height="25" width="85" />
+            </div>
+            <div class="search-icon">
+                <img src="./assets/icons/search-icon.svg" alt="search" height="25" width="25" />
+            </div>
+            <button class="dz-login" type="submit">Войти</button>
+            <form action="http://localhost:63342/students/index.html" method="get">
+                <div class="form">
+                    <input type="text" name="request" placeholder="Поиск Яндекса" />
+                    <button class="dz-search" type="submit">Найти</button>
+                    <div class="kboard-icon-wrapper">
+                        <img
+                                src="./assets/icons/kboard-icon.svg"
+                                alt="search"
+                                height="20"
+                                width="20"
+                        />
+                    </div>
+                </div>
+            </form>
+            <div class="icons-under-search-wrapper">
+                <div class="icons-weather-wrapper">
+                    <a href="" class="icons-and-text-link">
+                        <img
+                                src="./assets/icons/sun-icon.svg"
+                                alt="weather"
+                                height="14"
+                                width="14"
+                        />
+                        <span> +31</span>
+                    </a>
+                </div>
+                <div class="">
+                    <a href="" class="icons-and-text-link">Алматы</a>
+                </div>
+            </div>
+            <div class="icons-currency-wrapper">
+                <div class="icons-and-text-wrapper">
+                    <a href="" class="icons-and-text-link">
+                        <img
+                                src="./assets/icons/dollar-icon.svg"
+                                alt="dollar"
+                                height="12"
+                                width="12"
+                        />
+                        <span> 86,56</span>
+                    </a>
+                </div>
+                <div class="icons-and-text-wrapper">
+                    <a href="" class="icons-and-text-link">
+                        <img src="./assets/icons/euro-icon.svg" alt="euro" height="12" width="12" />
+                        <span> 94,13</span>
+                    </a>
+                </div>
+                <div class="icons-and-text-wrapper">
+                    <a href="" class="icons-and-text-link">
+                        <img src="./assets/icons/oil-icon.svg" alt="oil" height="12" width="12" />
+                        <span> 79,29</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="dz-menu-wrapper">
+                <nav class="dz-menu">
+                    <ul class="dz-menu-navigate">
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/home-icon.svg"
+                                        alt="home"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Главная</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/subscript-icon.svg"
+                                        alt="subscript"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Подписки</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/themes-icon.svg"
+                                        alt="themes"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Темы</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/video-icon.svg"
+                                        alt="video"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Видео</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/literature-icon.svg"
+                                        alt="literature"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Статьи</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/clips-icon.svg"
+                                        alt="clips"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Ролики</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/news-icon.svg"
+                                        alt="news"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Новости</span>
+                            </a>
+                        </li>
+                        <div class="divider"></div>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/videogames-icon.svg"
+                                        alt="videogames"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Видеоигры</span>
+                            </a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-text">
+                                <img
+                                        src="./assets/icons/for-kids-icon.svg"
+                                        alt="for-kids"
+                                        height="20"
+                                        width="20"
+                                />
+                                <span>Детям</span>
+                            </a>
+                        </li>
+                        <div class="divider"></div>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-underline-text">Всё о Дзене</a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-underline-text">Вакансии</a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-underline-text">Дзен на iOS и Android</a>
+                        </li>
+                        <li class="dz-menu-element-wrapper">
+                            <a href="" class="dz-menu-underline-text">
+                                <span>Ещё</span>
+                                <img
+                                        src="./assets/icons/expand-icon.svg"
+                                        alt="expand"
+                                        height="10"
+                                        width="10"
+                                />
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="dz-main-wrapper">
+                <div class="dz-main-container-grid">
+                    <div class="dz-news-themes-wrapper">
+                        <section class="dz-news-block">
+                            <div class="dz-news-wrapper">
+                                <div class="dz-title-element-wrapper">
+                                    <a href="" class="dz-title-wrapper">
+                                        <img
+                                                src="./assets/icons/news-icon.svg"
+                                                alt="news-icon"
+                                                height="25"
+                                                width="25"
+                                        />
+                                        <span>Новости</span>
+                                    </a>
+                                </div>
+                                <div class="dz-news-menu">
+                                    <button class="news-menu-scroll left" onclick="scrollMenu(-100)">
+                                        ‹
+                                    </button>
+                                    <div class="news-list">
+                                        <a href="" class="news-themes">Главное</a>
+                                        <a href="" class="news-themes">Интересное</a>
+                                        <a href="" class="news-themes">Спорт</a>
+                                        <a href="" class="news-themes">Происшествия</a>
+                                        <a href="" class="news-themes">Авто</a>
+                                        <a href="" class="news-themes">Политика</a>
+                                        <a href="" class="news-themes">Общество</a>
+                                        <a href="" class="news-themes">Экономика</a>
+                                        <a href="" class="news-themes">В мире</a>
+                                        <a href="" class="news-themes">Культура</a>
+                                        <a href="" class="news-themes">Технологии</a>
+                                        <a href="" class="news-themes">Наука</a>
+                                    </div>
+                                    <button class="news-menu-scroll right" onclick="scrollMenu(100)">
+                                        ›
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="dz-news-list-wrapper">
+                                <ul class="dz-news-list">
+                                    <li class="dz-news-element-wrapper">
+                                        <a href="" class="dz-news-list-text">
+                                            <img
+                                                    src="./assets/icons/news-icon.svg"
+                                                    alt="news-icon"
+                                                    height="15"
+                                                    width="15"
+                                            />
+                                            <span
+                                            >Украла у знакомых более 223 млн тенге: казахстанку
+                                            экстрадировали из России</span
+                                            >
+                                        </a>
+                                    </li>
+                                    <li class="dz-news-element-wrapper">
+                                        <a href="" class="dz-news-list-text">
+                                            <img
+                                                    src="./assets/icons/news-icon.svg"
+                                                    alt="news-icon"
+                                                    height="15"
+                                                    width="15"
+                                            />
+                                            <span
+                                            >Air Astana отменила рейс из-за поломки самолета в
+                                            Актобе</span
+                                            >
+                                        </a>
+                                    </li>
+                                    <li class="dz-news-element-wrapper">
+                                        <a href="" class="dz-news-list-text">
+                                            <img
+                                                    src="./assets/icons/news-icon.svg"
+                                                    alt="news-icon"
+                                                    height="15"
+                                                    width="15"
+                                            />
+                                            <span>Нефть и газ незаконно добывали в Мангистау</span>
+                                        </a>
+                                    </li>
+                                    <li class="dz-news-element-wrapper">
+                                        <a href="" class="dz-news-list-text">
+                                            <img
+                                                    src="./assets/icons/news-icon.svg"
+                                                    alt="news-icon"
+                                                    height="15"
+                                                    width="15"
+                                            />
+                                            <span
+                                            >Ребенок упал в траншею в коттеджном городке
+                                            Алматы</span
+                                            >
+                                        </a>
+                                    </li>
+                                    <li class="dz-news-element-wrapper">
+                                        <a href="" class="dz-news-list-text">
+                                            <img
+                                                    src="./assets/icons/news-icon.svg"
+                                                    alt="news-icon"
+                                                    height="15"
+                                                    width="15"
+                                            />
+                                            <span
+                                            >На какие пособия могут расчитывать многодетные семьи в
+                                            Казахстане</span
+                                            >
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <script src="..js"></script>
+                        </section>
+                        <section class="dz-themes-block">
+                            <div class="dz-title-element-wrapper">
+                                <a href="" class="dz-title-wrapper">
+                                    <img
+                                            src="./assets/icons/themes-icon.svg"
+                                            alt="news-icon"
+                                            height="22"
+                                            width="22"
+                                    />
+                                    <span> Темы в Дзене</span>
+                                </a>
+                            </div>
+                            <div class="block-themes">
+                                <a href="" class="block-themes">
+                                    <img src="./assets/images/picture.webp" width="240" height="135" />
+                                </a>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="dz-article-block-container">
+                        <section class="dz-articles-block">
+                            <div class="dz-articles-title-grid-container">
+                                <div class="dz-title-element-wrapper">
+                                    <a href="" class="dz-title-wrapper">
+                                        <img
+                                                src="./assets/icons/literature-icon.svg"
+                                                alt="news-icon"
+                                                height="25"
+                                                width="25"
+                                        />
+                                        <span>Статьи</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="dz-articles-block-wrapper">
+                                <div class="dz-block-grid-container">
+                                    <div class="dz-block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                    <div class="block-grid-container-item">
+                                        <a href="" class="block-themes">
+                                            <img src="./assets/images/picture.webp" width="" height="150" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer></footer>
+    </body>
+</html>
